@@ -1,0 +1,78 @@
+﻿<Window x:Class="MathClientWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="430" Width="407.09">
+    <Grid Margin="0,0,0,0">
+        <Button x:Name="submit" Content="Primo" HorizontalAlignment="Left" Margin="103,98,0,0" VerticalAlignment="Top" Width="109" Height="36" Click="submit_Click"/>
+        <TextBox x:Name="nInput" HorizontalAlignment="Left" Height="23" Margin="181,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="number" HorizontalAlignment="Left" Margin="38,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Número:"/></TextBlock>
+        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="38,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Resultado:"/></TextBlock>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="221,61,0,0" VerticalAlignment="Top"/>
+        <GridSplitter HorizontalAlignment="Left" Height="400" Margin="200,-42,0,0" VerticalAlignment="Top" Width="3" RenderTransformOrigin="0.5,0.5" Background="Black">
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.989"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+        <TextBox x:Name="a1" HorizontalAlignment="Center" Height="22" Margin="27,187,350,190" TextWrapping="Wrap" Text="a" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="b1" HorizontalAlignment="Center" Height="22" Margin="72,187,305,190" TextWrapping="Wrap" Text="b" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="c1" HorizontalAlignment="Center" Height="22" Margin="120,187,257,190" TextWrapping="Wrap" Text="c" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="56,188,0,0" TextWrapping="Wrap" Text="x + " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,188,0,0" TextWrapping="Wrap" Text="y = " VerticalAlignment="Top"/>
+        <TextBox x:Name="d1" HorizontalAlignment="Center" Height="22" Margin="27,213,350,164" TextWrapping="Wrap" Text="d" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="e1" HorizontalAlignment="Center" Height="22" Margin="72,213,305,164" TextWrapping="Wrap" Text="e" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="f1" HorizontalAlignment="Center" Height="22" Margin="120,213,257,164" TextWrapping="Wrap" Text="f" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="56,214,0,0" TextWrapping="Wrap" Text="x + " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,214,0,0" TextWrapping="Wrap" Text="y = " VerticalAlignment="Top"/>
+        <TextBlock x:Name="result_Copy" HorizontalAlignment="Left" Margin="35,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Resultado:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="100,282,0,0" TextWrapping="Wrap" Text="x = " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,303,0,0" TextWrapping="Wrap" Text="y = " VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="120,277,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="" HorizontalAlignment="Left" Margin="120,298,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ec2" Content="Resolver sistema" HorizontalAlignment="Left" Margin="35,362,0,0" VerticalAlignment="Top" Width="104" Height="27" Click="System2ec"/>
+        <TextBox x:Name="a2" HorizontalAlignment="Center" Height="22" Margin="227,178,158,200" TextWrapping="Wrap" Text="a" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="b2" HorizontalAlignment="Center" Height="22" Margin="272,178,113,200" TextWrapping="Wrap" Text="b" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="252,179,0,0" TextWrapping="Wrap" Text="x + " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="299,180,0,0" TextWrapping="Wrap" Text="y + " VerticalAlignment="Top"/>
+        <TextBox x:Name="c2" HorizontalAlignment="Center" Height="22" Margin="317,178,68,200" TextWrapping="Wrap" Text="c" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="344,180,0,0" TextWrapping="Wrap" Text="z = " VerticalAlignment="Top"/>
+        <TextBox x:Name="d2" HorizontalAlignment="Center" Height="22" Margin="364,178,21,200" TextWrapping="Wrap" Text="d" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="e2" HorizontalAlignment="Center" Height="22" Margin="227,205,158,173" TextWrapping="Wrap" Text="e" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="f2" HorizontalAlignment="Center" Height="22" Margin="272,205,113,173" TextWrapping="Wrap" Text="f" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="252,206,0,0" TextWrapping="Wrap" Text="x + " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="299,207,0,0" TextWrapping="Wrap" Text="y + " VerticalAlignment="Top"/>
+        <TextBox x:Name="g2" HorizontalAlignment="Center" Height="22" Margin="317,205,68,173" TextWrapping="Wrap" Text="g" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="344,207,0,0" TextWrapping="Wrap" Text="z = " VerticalAlignment="Top"/>
+        <TextBox x:Name="h2" HorizontalAlignment="Center" Height="22" Margin="364,205,21,173" TextWrapping="Wrap" Text="h" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="i2" HorizontalAlignment="Center" Height="22" Margin="227,232,158,146" TextWrapping="Wrap" Text="i" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBox x:Name="j2" HorizontalAlignment="Center" Height="22" Margin="272,232,113,146" TextWrapping="Wrap" Text="j" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="252,233,0,0" TextWrapping="Wrap" Text="x + " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="299,234,0,0" TextWrapping="Wrap" Text="y + " VerticalAlignment="Top"/>
+        <TextBox x:Name="k2" HorizontalAlignment="Center" Height="22" Margin="317,232,68,146" TextWrapping="Wrap" Text="k" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="344,234,0,0" TextWrapping="Wrap" Text="z = " VerticalAlignment="Top"/>
+        <TextBox x:Name="l2" HorizontalAlignment="Center" Height="22" Margin="364,232,21,146" TextWrapping="Wrap" Text="l" VerticalAlignment="Center" Width="22" TextAlignment="Center"/>
+        <TextBlock x:Name="result_Copy1" HorizontalAlignment="Left" Margin="243,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Resultado:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="307,266,0,0" TextWrapping="Wrap" Text="x = " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,287,0,0" TextWrapping="Wrap" Text="y = " VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="" HorizontalAlignment="Left" Margin="325,261,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="" HorizontalAlignment="Left" Margin="325,283,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,308,0,0" TextWrapping="Wrap" Text="z = " VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="" HorizontalAlignment="Left" Margin="325,303,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ec3" Content="Resolver sistema" HorizontalAlignment="Left" Margin="243,362,0,0" VerticalAlignment="Top" Width="104" Height="27" Click="System3ec"/>
+        <GridSplitter HorizontalAlignment="Left" Height="241" Margin="200,158,0,0" VerticalAlignment="Top" Width="3" RenderTransformOrigin="0.5,0.5" Background="Black">
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="179.692"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+
+    </Grid>
+</Window>

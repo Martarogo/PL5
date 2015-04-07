@@ -1,0 +1,8 @@
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\bin\Debug\SistemaEcuaciones.exe.config
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\bin\Debug\SistemaEcuaciones.exe
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\bin\Debug\SistemaEcuaciones.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\obj\Debug\SistemaEcuaciones.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\obj\Debug\SistemaEcuaciones.exe
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\obj\Debug\SistemaEcuaciones.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\bin\Debug\EcSystem.dll
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\SistemaEcuaciones\SistemaEcuaciones\bin\Debug\EcSystem.pdb

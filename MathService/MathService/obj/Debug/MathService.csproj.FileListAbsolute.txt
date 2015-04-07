@@ -1,0 +1,8 @@
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\obj\Debug\MathService.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\bin\Debug\MathService.dll.config
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\bin\Debug\MathService.dll
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\bin\Debug\MathService.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\obj\Debug\MathService.dll
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\obj\Debug\MathService.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\bin\Debug\EcSystem.dll
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathService\MathService\bin\Debug\EcSystem.pdb

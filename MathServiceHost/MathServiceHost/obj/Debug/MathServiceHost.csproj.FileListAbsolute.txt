@@ -1,0 +1,10 @@
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\MathServiceHost.exe.config
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\MathServiceHost.exe
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\MathServiceHost.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\MathService.dll
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\MathService.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\obj\Debug\MathServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\obj\Debug\MathServiceHost.exe
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\obj\Debug\MathServiceHost.pdb
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\EcSystem.dll
+C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathServiceHost\MathServiceHost\bin\Debug\EcSystem.pdb

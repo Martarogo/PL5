@@ -1,0 +1,35 @@
+import java.rmi.RemoteException;
+
+import org.tempuri.IMathProxy;
+
+public class Consumer {
+
+	public static void main(String[] args) {
+		
+		IMathProxy proxy = null;
+		double[] ecuationSystem = new double[] {2, 3, 3, 1, 6, 4};
+		String[] variables = new String[] {"x = ", "y = ", "z = "};
+		
+		try {
+			proxy = new IMathProxy();
+			//System.out.println("Endpoint: " + proxy.getEndpoint());
+			
+			System.out.println("Primo: " + proxy.prime(6));
+			
+			double[] solution = proxy.solveSystem(ecuationSystem);
+			
+			String showSolution = "";
+			
+			for (int i = 0; i < solution.length; i++) {
+				showSolution = showSolution + variables[i] + solution[i] + "\n";
+			}
+			
+			System.out.println(showSolution);
+			
+		}
+		catch (RemoteException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -7,12 +7,12 @@ public class Consumer {
 	public static void main(String[] args) {
 		
 		IMathProxy proxy = null;
-		double[] ecuationSystem = new double[] {2, 3, 3, 1, 6, 4};
+		double[] ecuationSystem = new double[] {2, 3, 3, 1, 6, 4, 1, 7, 5, 3, 9, 2};
 		String[] variables = new String[] {"x = ", "y = ", "z = "};
 		
 		try {
 			proxy = new IMathProxy();
-			System.out.println("Endpoint: " + proxy.getEndpoint());
+			//System.out.println("Endpoint: " + proxy.getEndpoint());
 			
 			System.out.println("Primo: " + proxy.prime(6));
 			

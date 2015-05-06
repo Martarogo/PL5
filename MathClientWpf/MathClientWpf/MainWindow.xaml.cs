@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,7 +26,7 @@ namespace MathClientWpf
             InitializeComponent();
         }
 
-        private void submit_Click(object sender, RoutedEventArgs e)
+        private void Prime(object sender, RoutedEventArgs e)
         {
             // Se instancia el proxy
             MathService.MathClient client = new MathService.MathClient();
@@ -36,6 +37,34 @@ namespace MathClientWpf
             // Se invoca el servicio
             bool result = client.Prime(iValue);
             label.Content = result;
+        }
+
+        private void Sum(object sender, RoutedEventArgs e)
+        {
+            MathService.MathClient client = new MathService.MathClient();
+
+            String stringInput = tupleInput.Text;
+
+            String spaces = @"\s+";
+
+            stringInput = Regex.Replace(stringInput.Trim(), spaces, " ");
+
+            String[] inputStringNumbers = stringInput.Split(new char[] { ' ' });
+
+            double[] inputNumbers = new double[inputStringNumbers.Length];
+
+            for (int i = 0; i < inputStringNumbers.Length; i++)
+            {
+                inputNumbers[i] = Double.Parse(inputStringNumbers[i]);
+            }
+
+            MathService.Tuple inputTuple = new MathClientWpf.MathService.Tuple();
+
+            inputTuple.Data = inputNumbers;
+
+            MathService.Tuple outputTuple = client.Sum(inputTuple);
+
+            sumResult.Content = outputTuple.Data[0];
         }
 
         private void System2ec(object sender, RoutedEventArgs z)

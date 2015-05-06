@@ -3,11 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="430" Width="407.09">
     <Grid Margin="0,0,0,0">
-        <Button x:Name="submit" Content="Primo" HorizontalAlignment="Left" Margin="103,98,0,0" VerticalAlignment="Top" Width="109" Height="36" Click="submit_Click"/>
-        <TextBox x:Name="nInput" HorizontalAlignment="Left" Height="23" Margin="181,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBlock x:Name="number" HorizontalAlignment="Left" Margin="38,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Número:"/></TextBlock>
-        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="38,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Resultado:"/></TextBlock>
-        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="221,61,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="submit" Content="Primo" HorizontalAlignment="Left" Margin="21,94,0,0" VerticalAlignment="Top" Width="109" Height="36" Click="Prime"/>
+        <TextBox x:Name="nInput" HorizontalAlignment="Left" Height="23" Margin="103,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <TextBlock x:Name="number" HorizontalAlignment="Left" Margin="21,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Número:"/></TextBlock>
+        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="21,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="56"><Run Language="es-es" Text="Resultado:"/></TextBlock>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="103,49,0,0" VerticalAlignment="Top"/>
         <GridSplitter HorizontalAlignment="Left" Height="400" Margin="200,-42,0,0" VerticalAlignment="Top" Width="3" RenderTransformOrigin="0.5,0.5" Background="Black">
             <GridSplitter.RenderTransform>
                 <TransformGroup>
@@ -63,7 +63,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="307,308,0,0" TextWrapping="Wrap" Text="z = " VerticalAlignment="Top"/>
         <Label x:Name="label5" Content="" HorizontalAlignment="Left" Margin="325,303,0,0" VerticalAlignment="Top"/>
         <Button x:Name="ec3" Content="Resolver sistema" HorizontalAlignment="Left" Margin="243,362,0,0" VerticalAlignment="Top" Width="104" Height="27" Click="System3ec"/>
-        <GridSplitter HorizontalAlignment="Left" Height="241" Margin="200,158,0,0" VerticalAlignment="Top" Width="3" RenderTransformOrigin="0.5,0.5" Background="Black">
+        <GridSplitter HorizontalAlignment="Left" Height="399" Margin="200,0,0,0" VerticalAlignment="Top" Width="3" RenderTransformOrigin="0.5,0.5" Background="Black">
             <GridSplitter.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -73,6 +73,9 @@
                 </TransformGroup>
             </GridSplitter.RenderTransform>
         </GridSplitter>
+        <TextBox x:Name="tupleInput" HorizontalAlignment="Left" Height="23" Margin="223,11,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="159"/>
+        <Button x:Name="sum" Content="¡Sumar!" HorizontalAlignment="Left" Margin="243,52,0,0" VerticalAlignment="Top" Width="109" Height="36" Click="Sum"/>
+        <Label x:Name="sumResult" Content="Label" HorizontalAlignment="Left" Margin="268,104,0,0" VerticalAlignment="Top" Width="58"/>
 
     </Grid>
 </Window>

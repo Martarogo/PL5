@@ -18,6 +18,7 @@ namespace MathClientConsole
                 Console.WriteLine("{0} es primo", x);
             else
                 Console.WriteLine("{0} no es primo", x);
+            Console.ReadKey();
         }
     }
 }

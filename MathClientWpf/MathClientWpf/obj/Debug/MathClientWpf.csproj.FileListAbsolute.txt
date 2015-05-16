@@ -11,3 +11,6 @@ C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientW
 C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientWpf\MathClientWpf\obj\Debug\MathClientWpf.csproj.GenerateResource.Cache
 C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientWpf\MathClientWpf\obj\Debug\MathClientWpf.exe
 C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientWpf\MathClientWpf\obj\Debug\MathClientWpf.pdb
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientWpf\MathClientWpf\bin\Debug\MathClientWpf.exe.config
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientWpf\MathClientWpf\obj\Debug\MathClientWpf.exe
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientWpf\MathClientWpf\obj\Debug\MathClientWpf.pdb

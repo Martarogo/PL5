@@ -4,3 +4,9 @@ C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientC
 C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientConsole\MathClientConsole\obj\Debug\MathClientConsole.csprojResolveAssemblyReference.cache
 C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientConsole\MathClientConsole\obj\Debug\MathClientConsole.exe
 C:\Users\Marco\Dropbox\Universidad\4º\2º semestre\Aplicaciones\PL5\MathClientConsole\MathClientConsole\obj\Debug\MathClientConsole.pdb
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientConsole\MathClientConsole\bin\Debug\MathClientConsole.exe.config
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientConsole\MathClientConsole\obj\Debug\MathClientConsole.exe
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientConsole\MathClientConsole\obj\Debug\MathClientConsole.pdb
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientConsole\MathClientConsole\bin\Debug\MathClientConsole.exe
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientConsole\MathClientConsole\bin\Debug\MathClientConsole.pdb
+C:\Users\MARTA\Documents\GitHub\PL5\MathClientConsole\MathClientConsole\obj\Debug\MathClientConsole.csprojResolveAssemblyReference.cache

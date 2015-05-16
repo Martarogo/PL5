@@ -36,7 +36,8 @@ namespace MathClientWpf
             
             // Se invoca el servicio
             bool result = client.Prime(iValue);
-            label.Content = result;
+            if (result == true) resultLabel.Content = "Es primo";
+            else resultLabel.Content = "No es primo";
         }
 
         private void Sum(object sender, RoutedEventArgs e)
